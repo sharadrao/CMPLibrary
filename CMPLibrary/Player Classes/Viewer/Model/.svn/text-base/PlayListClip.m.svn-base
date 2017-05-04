@@ -1,0 +1,211 @@
+//
+//  PlayListClip.m
+//  CLLibrary
+//
+//  Created by Vital on 25/03/15.
+//  Copyright (c) 2015 Prime Focus Technology. All rights reserved.
+//
+
+#import "PlayListClip.h"
+
+@implementation PlayListClip
+
+
+#pragma mark - self methods
+-(id)init
+{
+    self = [super init];
+    if(self) {
+        
+    }
+    
+    return self;
+}
+
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    
+    if(self)
+    {
+        self.segmentDic                   =   [aDecoder decodeObjectForKey:@"segmentDic"];
+        self.pl_clipId                    =   [aDecoder decodeObjectForKey:@"pl_clipId"];
+        /*
+        self.keywords                     =   [aDecoder decodeObjectForKey:@"keywords"];
+        self.notes                        =   [aDecoder decodeObjectForKey:@"notes"];
+        self.S_ORIG_NA                    =   [aDecoder decodeObjectForKey:@"S_ORIG_NA"];
+        self.originalPath                 =   [aDecoder decodeObjectForKey:@"originalPath"];
+        self.maintitle                    =   [aDecoder decodeObjectForKey:@"maintitle"];
+        self.S_ORIG_FI                    =   [aDecoder decodeObjectForKey:@"S_ORIG_FI"];
+        self.quality                      =   [aDecoder decodeObjectForKey:@"quality"];
+        self.TenantIds                    =   [aDecoder decodeObjectForKey:@"TenantIds"];
+        self.contentType                  =   [aDecoder decodeObjectForKey:@"contentType"];
+        self.contentTypeClass             =   [aDecoder decodeObjectForKey:@"contentTypeClass"];
+        self.uniqueName                   =   [aDecoder decodeObjectForKey:@"uniqueName"];
+        self.descriptions                 =   [aDecoder decodeObjectForKey:@"descriptions"];
+        self.starredBy                    =   [aDecoder decodeObjectForKey:@"starredBy"];
+        
+        self.viewCount                    =   [aDecoder decodeObjectForKey:@"viewCount"];
+        self.ipAddress                    =   [aDecoder decodeObjectForKey:@"ipAddress"];
+        self.ipLocation                   =   [aDecoder decodeObjectForKey:@"ipLocation"];
+        
+        self.lastViewedBy                 =   [aDecoder decodeObjectForKey:@"lastViewedBy"];
+        self.isShared                     =   [aDecoder decodeBoolForKey:@"isShared"];
+        
+        self.createdBy                    =   [aDecoder decodeObjectForKey:@"createdBy"];
+        self.modifiedBy                   =   [aDecoder decodeObjectForKey:@"modifiedBy"];
+        self.objId                        =   [aDecoder decodeObjectForKey:@"objId"];
+        self.plDuration                   =   [aDecoder decodeObjectForKey:@"plDuration"];
+        self.sourceAssetIds               =   [aDecoder decodeObjectForKey:@"sourceAssetIds"];
+        self.clipCount                    =   [aDecoder decodeObjectForKey:@"clipCount"];
+        self.reelNum                      =   [aDecoder decodeObjectForKey:@"reelNum"];
+        self.prodName                     =   [aDecoder decodeObjectForKey:@"prodName"];
+        self.prodNum                      =   [aDecoder decodeObjectForKey:@"prodNum"];
+        
+        self.stockId                      =   [aDecoder decodeObjectForKey:@"stockId"];
+        self.transferDate                 =   [aDecoder decodeObjectForKey:@"transferDate"];
+        self.clipCameraRoll               =   [aDecoder decodeObjectForKey:@"clipCameraRoll"];
+        self.clipComments                 =   [aDecoder decodeObjectForKey:@"clipComments"];
+        
+        self.shootDate                    =   [aDecoder decodeObjectForKey:@"shootDate"];
+        self.dayOfDays                    =   [aDecoder decodeObjectForKey:@"dayOfDays"];
+        self.playlistType                 =   [aDecoder decodeObjectForKey:@"playlistType"];
+        
+        self.folderId                     =   [aDecoder decodeObjectForKey:@"folderId"];
+        self.dimensions                   =   [aDecoder decodeObjectForKey:@"dimensions"];
+        self.assetType                    =   [aDecoder decodeObjectForKey:@"assetType"];
+        self.episode                      =   [aDecoder decodeObjectForKey:@"episode"];
+        
+        self.clipScenesAndTakes           =   [aDecoder decodeObjectForKey:@"clipScenesAndTakes"];
+        self.frameRate                    =   [aDecoder decodeObjectForKey:@"frameRate"];
+        self.sequenceXml                  =   [aDecoder decodeObjectForKey:@"sequenceXml"];
+        self.userId                       =   [aDecoder decodeObjectForKey:@"userId"];
+        self.authToken                    =   [aDecoder decodeObjectForKey:@"authToken"];
+        self.content_Type                 =   [aDecoder decodeObjectForKey:@"content_Type"];
+        */
+        
+        self.isClipSelected               =   [aDecoder decodeBoolForKey:@"isClipSelected"];
+    }
+    
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)encoder
+{
+    [super encodeWithCoder:encoder];
+    
+    [encoder encodeObject:self.segmentDic forKey:@"segmentDic"];
+
+    [encoder encodeObject:self.pl_clipId forKey:@"pl_clipId"];
+    /*
+    [encoder encodeObject:self.keywords forKey:@"keywords"];
+
+    [encoder encodeObject:self.notes forKey:@"notes"];
+    [encoder encodeObject:self.S_ORIG_NA forKey:@"S_ORIG_NA"];
+    [encoder encodeObject:self.originalPath forKey:@"originalPath"];
+    [encoder encodeObject:self.maintitle forKey:@"maintitle"];
+    [encoder encodeObject:self.S_ORIG_FI forKey:@"S_ORIG_FI"];
+    [encoder encodeObject:self.quality forKey:@"quality"];
+    [encoder encodeObject:self.TenantIds forKey:@"TenantIds"];
+    [encoder encodeObject:self.contentType forKey:@"contentType"];
+    [encoder encodeObject:self.contentTypeClass forKey:@"contentTypeClass"];
+    [encoder encodeObject:self.uniqueName forKey:@"uniqueName"];
+    [encoder encodeObject:self.descriptions forKey:@"descriptions"];
+    [encoder encodeObject:self.starredBy forKey:@"starredBy"];
+    
+    [encoder encodeObject:self.viewCount forKey:@"viewCount"];
+    [encoder encodeObject:self.ipAddress forKey:@"ipAddress"];
+    [encoder encodeObject:self.ipLocation forKey:@"ipLocation"];
+    
+    [encoder encodeObject:self.lastViewedBy forKey:@"lastViewedBy"];
+    [encoder encodeBool :self.isShared forKey:@"isShared"];
+    
+    [encoder encodeObject:self.createdBy forKey:@"createdBy"];
+    [encoder encodeObject:self.modifiedBy forKey:@"modifiedBy"];
+    [encoder encodeObject:self.objId forKey:@"objId"];
+    [encoder encodeObject:self.plDuration forKey:@"plDuration"];
+    [encoder encodeObject:self.sourceAssetIds forKey:@"sourceAssetIds"];
+    [encoder encodeObject:self.clipCount forKey:@"clipCount"];
+    [encoder encodeObject:self.reelNum forKey:@"reelNum"];
+    [encoder encodeObject:self.prodName forKey:@"prodName"];
+    [encoder encodeObject:self.prodNum forKey:@"prodNum"];
+    
+    [encoder encodeObject:self.stockId forKey:@"stockId"];
+    [encoder encodeObject:self.transferDate forKey:@"transferDate"];
+    [encoder encodeObject:self.clipCameraRoll forKey:@"clipCameraRoll"];
+    [encoder encodeObject:self.clipComments forKey:@"clipComments"];
+    
+    [encoder encodeObject:self.shootDate forKey:@"shootDate"];
+    [encoder encodeObject:self.dayOfDays forKey:@"dayOfDays"];
+    [encoder encodeObject:self.playlistType forKey:@"playlistType"];
+    
+    [encoder encodeObject:self.folderId forKey:@"folderId"];
+    [encoder encodeObject:self.dimensions forKey:@"dimensions"];
+    [encoder encodeObject:self.assetType forKey:@"assetType"];
+    [encoder encodeObject:self.episode forKey:@"episode"];
+   
+    [encoder encodeObject:self.clipScenesAndTakes forKey:@"clipScenesAndTakes"];
+    [encoder encodeObject:self.frameRate forKey:@"frameRate"];
+    [encoder encodeObject:self.sequenceXml forKey:@"sequenceXml"];
+    [encoder encodeObject:self.userId forKey:@"userId"];
+    [encoder encodeObject:self.authToken forKey:@"authToken"];
+    [encoder encodeObject:self.content_Type forKey:@"content_Type"];
+    */
+    
+    [encoder encodeBool:self.isClipSelected forKey:@"isClipSelected"];
+}
+
+-(void)dealloc
+{
+    self.segmentDic                   =   nil;
+    self.pl_clipId                    =   nil;
+    self.watermarkData                =   nil;
+    /*
+    self.keywords                     =   nil;
+    self.notes                        =   nil;
+    self.S_ORIG_NA                    =   nil;
+    self.originalPath                 =   nil;
+    self.maintitle                    =   nil;
+    self.S_ORIG_FI                    =   nil;
+    self.quality                      =   nil;
+    self.TenantIds                    =   nil;
+    self.contentType                  =   nil;
+    self.contentTypeClass             =   nil;
+    self.uniqueName                   =   nil;
+    self.descriptions                 =   nil;
+    self.starredBy                    =   nil;
+    self.viewCount                    =   nil;
+    self.ipAddress                    =   nil;
+    self.ipLocation                   =   nil;
+    self.lastViewedBy                 =   nil;
+    self.createdBy                    =   nil;
+    self.modifiedBy                   =   nil;
+    self.objId                        =   nil;
+    self.plDuration                   =   nil;
+    self.sourceAssetIds               =   nil;
+    self.clipCount                    =   nil;
+    self.reelNum                      =   nil;
+    self.prodName                     =   nil;
+    self.prodNum                      =   nil;
+    self.stockId                      =   nil;
+    self.transferDate                 =   nil;
+    self.clipCameraRoll               =   nil;
+    self.clipComments                 =   nil;
+    self.shootDate                    =   nil;
+    self.dayOfDays                    =   nil;
+    self.playlistType                 =   nil;
+    self.folderId                     =   nil;
+    self.dimensions                   =   nil;
+    self.assetType                    =   nil;
+    self.episode                      =   nil;
+    self.clipScenesAndTakes           =   nil;
+    self.frameRate                    =   nil;
+    self.sequenceXml                  =   nil;
+    self.userId                       =   nil;
+    self.authToken                    =   nil;
+    self.content_Type                 =   nil;
+     */
+    
+}
+
+@end

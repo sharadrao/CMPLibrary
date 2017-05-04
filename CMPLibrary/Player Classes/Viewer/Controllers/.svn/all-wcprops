@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PrimeFocus/!svn/ver/66774/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers
+END
+PlayerSettingsBitRateController.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsBitRateController.h
+END
+PlayerSettingsAudioTrackController.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PrimeFocus/!svn/ver/66865/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsAudioTrackController.m
+END
+ScreenerPopUpController.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/ScreenerPopUpController.h
+END
+PlayerSettingsPopupViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupViewController.h
+END
+PlayerSettingsPopupBaseController.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupBaseController.h
+END
+PlayerSettingsPopupAnnotationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupAnnotationController.h
+END
+PlayerSettingsBitRateController.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PrimeFocus/!svn/ver/66865/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsBitRateController.m
+END
+ScreenerPopUpController.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/ScreenerPopUpController.m
+END
+PlayerSettingsPopupContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupContainer.h
+END
+PlayerSettingsPopupViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PrimeFocus/!svn/ver/65974/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupViewController.m
+END
+PlayerSettingsPopupBaseController.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupBaseController.m
+END
+PlayerSettingsPopupAnnotationController.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupAnnotationController.m
+END
+PopupContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PopupContainer.h
+END
+ReviewPlayerControlsController.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PrimeFocus/!svn/ver/65679/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/ReviewPlayerControlsController.h
+END
+PlayerSettingsPopupContainer.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PrimeFocus/!svn/ver/66393/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsPopupContainer.m
+END
+PopupContainer.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PopupContainer.m
+END
+ReviewPlayerControlsController.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PrimeFocus/!svn/ver/66865/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/ReviewPlayerControlsController.m
+END
+PlayerControlsControllerBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PrimeFocus/!svn/ver/66865/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerControlsControllerBase.h
+END
+PlayerSettingsSubtitlesController.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsSubtitlesController.h
+END
+PlayerControlsContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PrimeFocus/!svn/ver/65974/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerControlsContainer.h
+END
+PlayerControlsControllerBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PrimeFocus/!svn/ver/65974/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerControlsControllerBase.m
+END
+PlayerSettingsSubtitlesController.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PrimeFocus/!svn/ver/66865/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsSubtitlesController.m
+END
+PlayerSettingsAudioTrackController.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerSettingsAudioTrackController.h
+END
+PlayerControlsContainer.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PrimeFocus/!svn/ver/66393/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Controllers/PlayerControlsContainer.m
+END

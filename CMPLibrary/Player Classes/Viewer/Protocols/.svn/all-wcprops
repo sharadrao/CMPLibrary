@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PrimeFocus/!svn/ver/65974/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Protocols
+END
+SubtitleStatusDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Protocols/SubtitleStatusDelegate.h
+END
+PlayerControlsDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PrimeFocus/!svn/ver/65974/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Protocols/PlayerControlsDelegate.h
+END
+PlayerSettingsPopupDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PrimeFocus/!svn/ver/65974/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Protocols/PlayerSettingsPopupDelegate.h
+END
+PopupDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PrimeFocus/!svn/ver/65625/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Protocols/PopupDelegate.h
+END
+PlayerViewDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PrimeFocus/!svn/ver/65974/Projects/Clear/Others/PlayerModule/PlayerTest/Player/Viewer/Protocols/PlayerViewDelegate.h
+END

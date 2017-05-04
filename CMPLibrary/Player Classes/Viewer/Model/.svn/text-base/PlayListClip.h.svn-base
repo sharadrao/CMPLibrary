@@ -1,0 +1,19 @@
+//
+//  PlayListClip.h
+//  CLLibrary
+//
+//  Created by Vital on 25/03/15.
+//  Copyright (c) 2015 Prime Focus Technology. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "ScreenerPreviewClip.h"
+#import "WaterMarkModel.h"
+@interface PlayListClip :ScreenerPreviewClip
+
+@property (nonatomic, strong) NSMutableDictionary   *segmentDic;
+@property (nonatomic, strong) NSString              *pl_clipId;
+@property (nonatomic, strong) NSString              *streamType;
+@property (nonatomic, assign) BOOL                  isClipSelected;
+@property (nonatomic, strong) WaterMarkModel      *watermarkData;
+@end

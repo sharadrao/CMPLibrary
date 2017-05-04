@@ -1,0 +1,15 @@
+PODS:
+  - Base64nl (1.2)
+  - RNCryptor-objc (3.0.2)
+
+DEPENDENCIES:
+  - Base64nl
+  - RNCryptor-objc
+
+SPEC CHECKSUMS:
+  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  RNCryptor-objc: 6d18b2e4297c8f4a71a295492366313a3245d0ae
+
+PODFILE CHECKSUM: a290822e9ec12898e4d7e56240ecd65a8fe2f964
+
+COCOAPODS: 1.2.1
